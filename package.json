@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "dot": "^1.0.3",
-    "loader-utils": "^0.2.11",
+    "loader-utils": "^1.1.0",
     "object-assign": "^4.0.1"
   }
 }

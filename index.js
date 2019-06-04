@@ -5,7 +5,7 @@ var utils  = require('loader-utils');
 module.exports = function (content) {
     this.cacheable && this.cacheable();
 
-    var options = utils.parseQuery(this.query);
+    var options = utils.getOptions(this);
 
     options = assign({}, dot.templateSettings, {
         selfcontained: true
